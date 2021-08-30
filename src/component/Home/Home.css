@@ -1,0 +1,13 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background: #f9f9f9;
+  width: 90%;
+  padding: 15px;
+  height: 85vh;
+  margin: 35px;
+  border-radius: 20px;
+}
+.recent-contact {
+  /* overflow-y: auto; */
+}

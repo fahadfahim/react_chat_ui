@@ -1,0 +1,40 @@
+.message_type {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  margin: 0 auto;
+  left: 2%;
+}
+.messagetype_container {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  align-items: center;
+  border-radius: 25px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.message_left {
+  flex: 0.6;
+}
+.message_right {
+  flex: 0.4;
+}
+.message_left > input {
+  border: none;
+  margin-left: 12px;
+  height: 30px;
+  outline: 0;
+  background: #f9f9f9;
+  width: 80%;
+}
+.send {
+  margin-left: 12px !important;
+  background: #658fff !important;
+}
+.sendIcon {
+  color: #fff !important;
+}
+.attachIcon {
+  transform: rotate(30deg);
+}

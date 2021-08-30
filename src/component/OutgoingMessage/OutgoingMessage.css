@@ -1,0 +1,36 @@
+/* .outgoing_msg {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+.sent_msg {
+  float: right;
+  width: 46%;
+} */
+.out_img {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+}
+.outgoing_msg {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.outgoing_area {
+  display: block;
+}
+span.time_dates {
+  font-size: x-small;
+  float: right;
+}
+.sent_msg p {
+  padding: 5px;
+  font-size: 14px;
+  background: #658fff;
+  border-top-right-radius: 15px;
+  color: #fff;
+  border-bottom-left-radius: 15px;
+}
+.sent_msg {
+  margin-right: 5px;
+}

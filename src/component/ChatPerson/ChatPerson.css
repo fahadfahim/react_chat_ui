@@ -1,0 +1,28 @@
+.chat_person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.person_det {
+  margin-left: -35px;
+  color: #4b7ff7;
+}
+.person_det p {
+  color: #525252;
+  font-weight: bold;
+}
+
+.chat_icon .icon {
+  font-size: 15px;
+}

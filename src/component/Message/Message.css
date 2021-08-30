@@ -1,0 +1,22 @@
+.mesgs {
+  display: block;
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 60%;
+  position: absolute;
+  overflow-y: scroll;
+}
+
+.msg_history {
+  height: 60vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.msg_history::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+.msg_history::-webkit-scrollbar {
+  background: #000;
+}

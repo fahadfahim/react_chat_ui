@@ -1,0 +1,9 @@
+.chat_cnt {
+  background-color: #ffffff;
+  position: relative;
+  display: block;
+}
+.message_area {
+  overflow-y: scroll;
+  height: 60vh;
+}

@@ -1,0 +1,28 @@
+/* .person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0px;
+} */
+.recent_chat {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin: 12px 0px;
+  width: 100% !important;
+  border-radius: 0 !important;
+  height: 60px !important;
+}
+.badge {
+  background-color: #4c81f1 !important;
+  border-radius: 50% !important;
+  font-size: xx-small !important;
+}
+.person_icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* .person_det {
+  margin-left: -60px;
+} */

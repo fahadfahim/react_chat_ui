@@ -1,0 +1,79 @@
+.profile_avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+.pro_avatar {
+  width: 85px !important;
+  height: 80px !important;
+}
+.pro_about {
+  margin-top: 10px;
+  color: #646464;
+  text-align: center;
+}
+.pro_about h4 {
+  font-size: 18px;
+}
+.start_call {
+  margin: 20px 0 15px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  background: #e7ecff !important;
+}
+.icon {
+  color: #4475ff !important;
+}
+.ff_area {
+  display: flex;
+  align-items: center;
+}
+.ff_area p {
+  font-size: 13px;
+  font-weight: 600;
+}
+.attacment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.att_text p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.att_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.box {
+  padding: 15px;
+  background: #dbdff4 !important;
+  border-radius: 10px !important;
+  margin-right: 8px !important;
+}
+.box p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.view_all_btn {
+  /* font-size: 12px; */
+  background: #e4e9fd !important;
+  width: 50px !important;
+  height: 20px !important;
+  /* margin: 10px auto !important; */
+  border-radius: none !important;
+}
+.view_all_btn p {
+  white-space: nowrap;
+}
+.view_all {
+  margin-left: 90px;
+  margin-top: 11px;
+}
